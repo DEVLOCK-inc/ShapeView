@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ShapeView</string>
+    <string name="button">Button</string>
+    <string name="shadow_view">Shadow View</string>
+</resources>
