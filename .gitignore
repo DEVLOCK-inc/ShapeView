@@ -13,3 +13,9 @@
 .externalNativeBuild
 .cxx
 local.properties
+.idea/runConfigurations.xml
+.idea/misc.xml
+.idea/migrations.xml
+.idea/kotlinc.xml
+.idea/gradle.xml
+.idea/deploymentTargetSelector.xml
