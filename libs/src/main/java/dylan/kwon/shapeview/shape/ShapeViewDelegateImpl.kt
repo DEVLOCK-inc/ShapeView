@@ -315,7 +315,7 @@ open class ShapeViewDelegateImpl(
     /**
      * If useClip is true, clip the corner.
      */
-    override fun draw(canvas: Canvas?) {
+    override fun draw(canvas: Canvas) {
         if (useClip && canvas != null) {
             clip(canvas)
         }

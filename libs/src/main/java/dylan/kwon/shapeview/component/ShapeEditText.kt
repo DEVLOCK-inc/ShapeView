@@ -93,7 +93,7 @@ open class ShapeEditText @JvmOverloads constructor(
         shadowDelegate.onDetachedFromWindow()
     }
 
-    override fun draw(canvas: Canvas?) {
+    override fun draw(canvas: Canvas) {
         shadowDelegate.draw(canvas)
         shapeDelegate.draw(canvas)
         super.draw(canvas)

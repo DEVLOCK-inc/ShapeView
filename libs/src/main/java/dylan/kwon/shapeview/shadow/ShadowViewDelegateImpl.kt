@@ -196,7 +196,7 @@ open class ShadowViewDelegateImpl(
         shadowDrawable.release()
     }
 
-    override fun draw(canvas: Canvas?) {
+    override fun draw(canvas: Canvas) {
         if (canvas == null) {
             return
         }

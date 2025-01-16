@@ -44,7 +44,7 @@ interface ShadowViewDelegate {
 
     fun onDetachedFromWindow()
 
-    fun draw(canvas: Canvas?)
+    fun draw(canvas: Canvas)
 
     fun drawShadow(canvas: Canvas)
 

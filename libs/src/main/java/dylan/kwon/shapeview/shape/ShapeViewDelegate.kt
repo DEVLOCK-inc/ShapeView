@@ -118,7 +118,7 @@ interface ShapeViewDelegate {
     /**
      * If useClip is true, clip the corner.
      */
-    fun draw(canvas: Canvas?)
+    fun draw(canvas: Canvas)
 
     /**
      * The edges are clipped by the radius.
